@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/googleformsbg.png')] bg-start bg-cover bg-no-repeat bg-fixed min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/googleformsbg.png')] bg-center bg-cover bg-no-repeat bg-fixed min-h-screen w-screen overflow-hidden`}
       >
         {children}
       </body>
